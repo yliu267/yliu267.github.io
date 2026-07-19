@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yuanpeng Liu | Computer Science Researcher</title>
+  <meta name="description" content="Personal website of Yuanpeng Liu, a Ph.D. candidate in Computer Science at Stony Brook University.">
+  <meta property="og:title" content="Yuanpeng Liu">
+  <meta property="og:description" content="Computer Science Researcher">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yliu267.github.io">
+  <meta property="og:image" content="https://yliu267.github.io/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--paper:#f2f0e9;--ink:#182524;--muted:#6d7772;--accent:#176f68;--line:rgba(24,37,36,.2)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}main{max-width:1480px;margin:0 auto;padding:0 5.5vw}
+    nav{height:112px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.monogram{width:44px;height:44px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-family:"Cormorant Garamond",serif;font-size:19px;font-weight:600}.navlinks{display:flex;gap:42px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}nav a{transition:color .2s}nav a:hover{color:var(--accent)}
+    .hero{padding:9vh 0 8vh;min-height:calc(100vh - 112px);display:flex;flex-direction:column;justify-content:space-between}.eyebrow{display:flex;align-items:center;gap:13px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.eyebrow span{width:7px;height:7px;border-radius:50%;background:var(--accent)}h1{margin:3vh 0 4vh;font-family:"Cormorant Garamond",serif;font-size:clamp(104px,15vw,220px);line-height:.69;letter-spacing:-.065em;font-weight:500}h1 em{margin-left:18vw;color:var(--accent);font-weight:500}.herobottom{display:grid;grid-template-columns:1fr 1fr;align-items:end}.herobottom>p{max-width:600px;margin:0;font-size:clamp(18px,1.8vw,26px);line-height:1.5;letter-spacing:-.02em}.contact{justify-self:end;border-bottom:1px solid var(--ink);padding-bottom:8px;font-size:14px}.contact span{margin-left:32px;color:var(--accent)}
+    .about,.education{border-top:1px solid var(--line);padding:100px 0 120px;display:grid;grid-template-columns:1fr 3fr;gap:40px}.label{margin:0;color:var(--accent);font-size:12px;letter-spacing:.13em;text-transform:uppercase}.aboutcopy>p{margin:-12px 0 60px;max-width:900px;font-family:"Cormorant Garamond",serif;font-size:clamp(38px,5vw,68px);line-height:1.06;letter-spacing:-.035em}.interests{display:flex;flex-wrap:wrap;gap:10px}.interests span{border:1px solid var(--line);border-radius:100px;padding:12px 20px;font-size:13px}
+    .education{display:block}.educationheading{display:grid;grid-template-columns:1fr 3fr;margin-bottom:80px}h2{margin:-12px 0 0;font-family:"Cormorant Garamond",serif;font-size:clamp(48px,7vw,96px);line-height:.95;letter-spacing:-.045em;font-weight:500}.timeline{border-top:1px solid var(--ink)}article{min-height:160px;display:grid;grid-template-columns:.6fr 1.5fr 1.5fr .8fr;gap:28px;align-items:center;border-bottom:1px solid var(--line)}.marker{font-family:"Cormorant Garamond",serif;font-size:24px;color:var(--accent)}.school h3{margin:0 0 7px;font-family:"Cormorant Garamond",serif;font-size:28px;font-weight:600}.school p,.degree p,.degree small,time{margin:0;font-size:14px;line-height:1.55}.school p,.degree small,time{color:var(--muted)}.degree small{display:block;margin-top:5px}time{text-align:right}
+    footer{min-height:350px;padding:80px 0;border-top:1px solid var(--ink);display:grid;grid-template-columns:2fr 1fr 1fr;align-items:end}footer>div>p{margin:0 0 10px;font-family:"Cormorant Garamond",serif;font-size:54px;line-height:1}footer>div>a{color:var(--accent);font-size:14px;border-bottom:1px solid var(--accent);padding-bottom:4px}.location,.toplink{margin:0;color:var(--muted);font-size:12px;line-height:1.7}.toplink{justify-self:end}
+    @media(max-width:760px){main{padding:0 22px}nav{height:88px}.hero{min-height:calc(100svh - 88px);padding:8vh 0 6vh}h1{font-size:clamp(82px,28vw,130px);line-height:.75;margin-top:5vh}h1 em{margin-left:9vw}.herobottom{display:block}.herobottom>p{font-size:18px}.contact{display:inline-block;margin-top:34px}.about,.education{padding:72px 0 84px}.about{display:block}.aboutcopy>p{margin:42px 0;font-size:39px}.educationheading{display:block;margin-bottom:50px}h2{margin-top:42px;font-size:52px}article{padding:28px 0;min-height:0;grid-template-columns:42px 1fr;gap:18px}.marker{grid-row:1/4;align-self:start}.school,.degree,time{grid-column:2;text-align:left}time{grid-row:1;margin-top:38px}footer{min-height:310px;padding:62px 0;grid-template-columns:1fr auto;gap:60px 20px}footer>div{grid-column:1/3}footer>div>p{font-size:44px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="Primary navigation"><a class="monogram" href="#top" aria-label="Yuanpeng Liu home">YL</a><div class="navlinks"><a href="#about">About</a><a href="#education">Education</a></div></nav>
+  <section class="hero" id="top"><div class="eyebrow"><span></span>Computer Science Researcher</div><h1>Yuanpeng<br><em>Liu.</em></h1><div class="herobottom"><p>Ph.D. candidate at Stony Brook University, exploring the intersection of geometry, vision, and generative intelligence.</p><a class="contact" href="mailto:yuanpliu@cs.stonybrook.edu">Get in touch <span>鈫?/span></a></div></section>
+  <section class="about" id="about"><p class="label">01 / About</p><div class="aboutcopy"><p>I am a computer science researcher based in Piscataway, New Jersey. My work brings mathematical ideas and modern learning methods together to understand and create visual forms.</p><div class="interests" aria-label="Research interests"><span>Computer Graphics</span><span>Computer Vision</span><span>Generative Models</span><span>Computer-aided Design</span></div></div></section>
+  <section class="education" id="education"><div class="educationheading"><p class="label">02 / Education</p><h2>A foundation in<br>mathematics &amp; computing.</h2></div><div class="timeline">
+    <article><div class="marker">01</div><div class="school"><h3>Stony Brook University</h3><p>Stony Brook, New York</p></div><div class="degree"><p>Ph.D. Candidate in Computer Science</p><small>Advisor: Prof. Xianfeng Gu</small></div><time>2022 - Present</time></article>
+    <article><div class="marker">02</div><div class="school"><h3>Syracuse University</h3><p>Syracuse, New York</p></div><div class="degree"><p>M.S. in Computer Science</p></div><time>2018 - 2020</time></article>
+    <article><div class="marker">03</div><div class="school"><h3>Sun Yat-sen University</h3><p>Guangzhou, China</p></div><div class="degree"><p>B.S. in Mathematics and Applied Mathematics</p></div><time>2013 - 2018</time></article>
+  </div></section>
+  <footer><div><p>Let&apos;s connect.</p><a href="mailto:yuanpliu@cs.stonybrook.edu">yuanpliu@cs.stonybrook.edu</a></div><p class="location">Piscataway, New Jersey<br>United States</p><a class="toplink" href="#top">Back to top 鈫?/a></footer>
+</main>
+</body>
+</html>
+
